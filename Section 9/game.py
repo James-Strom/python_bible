@@ -55,11 +55,11 @@ while True:
 		print("X Wins! Congratulations!")
 		break
 	elif is_draw():
-		print_board()
 		print("Its a draw!")
 		break
 	player_move("O")
 	if is_victory("O"):
+		print_board()
 		print("O Wins! Congratulations!")
 		break
 	elif is_draw():
